@@ -670,3 +670,26 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+footer {
+  background-color: black; }
+
+.site-info {
+  display: grid;
+  height: 300px; }
+
+.contact-info {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2; }
+
+.open-hour {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2; }
+
+.logo-img {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2; }
+
+.copyright {
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 1;
+  text-align: center; }
